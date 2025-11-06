@@ -26,3 +26,5 @@ secrets.auto.tfvars
 # Codespaces & misc
 *.bak
 *.tmp
+# From project root
+git rm -r --cached .terraform
