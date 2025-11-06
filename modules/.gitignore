@@ -1,0 +1,28 @@
+# === Terraform ===
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+.terraform.lock.hcl
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive files
+*.pem
+*.key
+*.env
+secrets.auto.tfvars
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Codespaces & misc
+*.bak
+*.tmp
